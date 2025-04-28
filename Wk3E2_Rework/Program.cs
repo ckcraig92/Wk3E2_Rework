@@ -31,7 +31,6 @@ namespace Wk3E2_Rework
                 { 
                     //declaration
                     string userInput = "";
-
                     int userGuess = 0;
                     int rollNumber = 0;
 
@@ -83,10 +82,8 @@ namespace Wk3E2_Rework
 
                     }
                     while (userInput != "QUIT");
-
                     Console.WriteLine("The application exits");
-
-                    Console.Read();
+                    Console.ReadLine();
 
                 }
             }
